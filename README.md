@@ -1,7 +1,7 @@
 
 # Realtime ChatApp
 
-Designed and developed realtime chatting web application, in this application multiple users can chat in a chatroom, users dont need to refresh page to receive messages, all incoming and outgoing messages are updated in real time.
+Designed and developed realtime chatting web application using MVC architecture, in this application multiple users can chat in a chatroom, users dont need to refresh page to receive messages, all incoming and outgoing messages are updated in real time.
 
 ## How to setup the project on local system
 
