@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/styles/homePage.css">
+
+<div id="chatBox">
+    <div id="cb-heading">
+        <i style="font-weight: bold; color: lightseagreen;" class="fa-brands fa-whatsapp"></i>
+        <span style="font-weight: bold; color: lightseagreen;">&nbsp; Chit-Chat</span>
+    </div>
+    <div id="cb-meassageArea"></div>
+    <div id="send-message">
+        <input type="text" name="text" id="txt">
+        <i id="btn" class="fa-solid fa-paper-plane"></i>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js" integrity="sha512-MgkNs0gNdrnOM7k+0L+wgiRc5aLgl74sJQKbIWegVIMvVGPc1+gc1L2oK9Wf/D9pq58eqIJAxOonYPVE5UwUFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/scripts/chatEngine.js"></script>
+<script>
+    console.log('outside class');
+    new ChatEngine('cb-meassageArea');
+</script>
